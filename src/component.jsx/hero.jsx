@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 const Hero = () => {
   return (
     <>
-      <div className="text-white">
+      <div className="text-white" id="Home">
         <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center items-center">
           <p className="text-[#00df9a] font-bold p-2">
             GROWING WITH DATA ANALYTICS
@@ -28,7 +28,7 @@ const Hero = () => {
             Monitor your data analytics to increase reverse for BTB, BTC & SASS
             platforms.
           </p>
-          <button className="bg-[#00df9a] w-[200px] rounded font-medium my-6 mx-auto py-3 text-black">
+          <button className="bg-[#00df9a] w-[200px] rounded font-medium my-6 mx-auto py-3 text-black hover:bg-purple-300 hover:text-blacktransition-all duration-500 ease-in-out">
             Get Started
           </button>
         </div>
