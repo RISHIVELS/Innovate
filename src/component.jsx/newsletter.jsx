@@ -7,7 +7,7 @@ const Newsletter = () => {
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 text-white">
           <div className="lg:col-span-2 my-4">
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-4">
-              Want tips & tricks to optimize your flow?
+              Want to know about New Innovations?
             </h1>
             <p>Sign up to our newsletter and stay up to date.</p>
           </div>
@@ -22,10 +22,6 @@ const Newsletter = () => {
                 Notify Me
               </button>
             </div>
-            <p className="text-center">
-              We care bout the protection of your data. Read our{" "}
-              <span className="text-[#00df9a]">Privacy Policy.</span>
-            </p>
           </div>
         </div>
       </div>
